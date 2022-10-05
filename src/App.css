@@ -14,6 +14,37 @@ nav {
 .navbar-img {
   width: 160px;
 }
+
+.searchbar-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.searchbar {
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.searchbar input {
+  padding: 10px;
+  box-shadow: 0 2px 2px  (0, 0, 0, 0.25);
+  margin-right: 20px;
+  border-radius: 3px;
+  border: none;
+}
+
+.searchbar-btn button {
+  background-color: #0e6f9f;
+  border: none;
+  border-radius: 10px;
+  height: 44px;
+  color: #fff;
+  padding: 10px 12px;
+
+}
+
 .App {
   text-align: center;
 }
