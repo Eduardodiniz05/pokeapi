@@ -14,7 +14,7 @@ const Searchbar = () => {
         <div className="searchbar-container">
             <div className="searchbar">
                 <input placeholder="Buscar Pokémon" onChange={onChangehandler} />
-                {search}
+        
             </div>
             <div className="searchbar-btn">
                 <button onClick={onClickHandler} > Buscar </button>
